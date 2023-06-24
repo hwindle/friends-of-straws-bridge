@@ -1,1 +1,27 @@
- 
+@media screen and (min-width: 768px) {
+  div.flex-wrapper {
+    flex-direction: row;
+  }
+
+  section#main-content {
+    height: 85vh;
+    flex-grow: 1;
+  }
+
+  section#sidebar {
+    width: 15rem;
+    padding: 2rem;
+  }
+
+  /* menu for tablet/desktop */
+  nav > ul#menu {
+    max-width: 1300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+  }
+
+  ul#menu li {
+    width: auto;
+  }
+} 
