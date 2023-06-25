@@ -1,6 +1,23 @@
+:root {
+  --100-white: white;
+  --600-mid-grey: #888;
+}
+
 body {
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background: #EEE;
   color: #5D5D5D;
+}
+
+p {
+  margin: 0 auto;
+  /* top and bottom padding */
+  padding: 1rem 0;
+  max-width: 80ch;
+  text-align: left;
+}
+
+article {
+  margin-bottom: 1.3rem;
 }
