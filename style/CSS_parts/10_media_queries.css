@@ -13,7 +13,7 @@
     padding: 2rem;
   }
 
-  /* menu for tablet/desktop */
+  /* main menu for tablet/desktop */
   nav > ul#menu {
     max-width: 1300px;
     flex-direction: row;
@@ -24,4 +24,27 @@
   ul#menu li {
     width: auto;
   }
-} 
+
+  /* secondary footer nav for tablet/desktop */
+  ol.footer-navigation {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around;
+  }
+
+  ol.footer-navigation li {
+    padding-right: 1rem;
+  }
+
+  ol.footer-navigation li::after {
+    content: '|';
+    padding-left: 1rem;
+  }
+
+  ol.footer-navigation li:last-child::after {
+    content: '';
+  }
+}
