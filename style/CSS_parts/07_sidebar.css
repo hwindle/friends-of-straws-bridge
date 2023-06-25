@@ -1,5 +1,7 @@
 #sidebar {
   padding: 0 2rem 1.4rem 0.9rem;
+  background-color: #F6F6F0;
+  border-left: 3px solid #EDEDED;
 }
 
 #sidebar ul {

@@ -4,7 +4,7 @@
   }
 
   section#main-content {
-    height: 85vh;
+    height: max(100vh, auto);
     flex-grow: 1;
   }
 
@@ -15,10 +15,12 @@
 
   /* main menu for tablet/desktop */
   nav > ul#menu {
+    margin: 0 auto;
     max-width: 1300px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: space-between;
+    justify-content: center;
   }
 
   ul#menu li {
