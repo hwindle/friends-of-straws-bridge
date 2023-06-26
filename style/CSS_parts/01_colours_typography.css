@@ -1,20 +1,29 @@
 :root {
   --100-white: white;
+  --main-content-bg: #FAFAFA;
+  --900-black: black;
+  --200-off-white: #EEE;
+  --300-beige-grey: #a8aa94;
   --600-mid-grey: #888;
+  --700-grey: #5D5D5D;
+  --500-blue: #2DB8CD;
+  --700-red: #B60000;
+  --800-dark-grey: #362C20;
+  --400-apple: #A4AA04;
 }
 
 body {
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background: #EEE;
-  color: #5D5D5D;
+  background: var(--200-off-white);
+  color: var(--700-grey);
 }
 
 p {
   margin: 0 auto;
   /* top and bottom padding */
   padding: 1rem 0;
-  max-width: 80ch;
+  max-width: 90ch;
   text-align: left;
 }
 

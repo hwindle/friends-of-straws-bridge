@@ -59,11 +59,11 @@ header {
 }
 
 div.flex-wrapper {
-  background-color: white;
+  background-color: var(--100-white);
 }
 
 #main-content {
-  background-color: #FAFAFA;
+  background-color: var(--main-content-bg);
   padding: 1.4rem;
 }
 

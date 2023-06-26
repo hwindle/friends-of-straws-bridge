@@ -23,6 +23,6 @@
 }
 
 #sidebar li a.selected {
-  color: #444;
+  color: var(--700-grey);
   text-decoration: none;
 }

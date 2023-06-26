@@ -9,5 +9,5 @@ figcaption {
   padding: 0.6rem 0.3rem;
   font-weight: bold;
   text-align: center;
-  color: #2DB8CD;
+  color: var(--500-blue);
 }

@@ -10,30 +10,31 @@
   padding-top: 1.5rem;
   padding-bottom: 1.2rem;
   margin: 0;
-  color: white;
+  color: var(--100-white);
 }
 
 #logo h2 {
   font-size: 1.5rem;
   padding-top: 0.3rem;
-  color: #a8aa94;
+  color: var(--300-beige-grey);
 }
 
 #logo h1,
 #logo h1 a,
 #logo h1 a:hover {
   padding-top: 1.4rem;
-  color: white;
+  color: var(--100-white);
   text-decoration: none;
 }
 
 #logo h1 a .logo_colour {
-  color: #888;
+  color: var(--600-mid-grey);
   /* to make the text/heading stand out more against the grey */
-  text-shadow: 0 0 1px black, 1px 1px 1px #111;
+  text-shadow: 0 0 1px var(--900-black), 
+              1px 1px 1px var(--800-dark-grey);
 }
 
 #logo a:hover .logo_colour {
-  color: white;
-  text-shadow: 0 0 3px #111, -1px -1px #888;
+  color: var(--100-white);
+  text-shadow: 0 0 3px #111, -1px -1px var(--600-mid-grey);
 }

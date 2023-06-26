@@ -19,17 +19,17 @@ ul#menu li a {
   height: 2rem;
   padding: 0.3rem 0.8rem;
   text-align: center;
-  color: #000;
+  color: var(--900-black);
   text-decoration: none;
-  background: #e0e0e0;
+  background: var(--200-off-white);
 }
 
 ul#menu li.selected a,
 ul#menu li.selected a:hover {
-  background: #fff;
-  color: #b60000;
+  background: var(--100-white);
+  color: var(--700-red);
 }
 
 ul#menu li a:hover {
-  color: #b60000;
+  color: var(--700-red);
 } 
