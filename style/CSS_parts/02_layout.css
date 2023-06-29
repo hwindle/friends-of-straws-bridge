@@ -49,6 +49,15 @@ footer {
   margin: 0 auto;
 }
 
+iframe.google-map {
+  width: 600px;
+  height: 480px;
+  display: block;
+  margin:  0 auto;
+  border-radius: 3px;
+  border: 2px solid var(--400-apple);
+}
+
 header {
   height: auto;
 }
@@ -69,4 +78,18 @@ div.flex-wrapper {
 
 footer {
   margin-top: 3rem;
+  text-align: center;
+}
+
+/* sidebar facebook div */
+div.fb-page {
+  display: block;
+  /* width: 80%; */
+  margin: 0 auto;
+}
+
+/* selects the ul element after the FB link box */
+div.fb-page + ul {
+  width: 80%;
+  margin: 0 auto;
 }

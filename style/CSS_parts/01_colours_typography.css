@@ -1,24 +1,69 @@
 :root {
   --100-white: white;
-  --main-content-bg: #FAFAFA;
+  --main-content-bg: #fafafa;
   --900-black: black;
-  --200-off-white: #EEE;
+  --200-off-white: #eee;
   --300-beige-grey: #a8aa94;
   --600-mid-grey: #888;
-  --700-grey: #5D5D5D;
-  --500-blue: #2DB8CD;
-  --700-red: #B60000;
-  --800-dark-grey: #362C20;
-  --400-apple: #A4AA04;
+  --700-grey: #5d5d5d;
+  --500-blue: #2db8cd;
+  --700-red: #b60000;
+  --800-dark-grey: #362c20;
+  --400-apple: #a4aa04;
 }
 
 body {
   font-size: 16px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   background: var(--200-off-white);
   color: var(--700-grey);
 }
 
+/* general heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 200%;
+  color: var(--500-blue);
+  padding: 0.6rem 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 165%;
+  color: var(--700-red);
+}
+
+h3 {
+  font-size: 165%;
+}
+
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  font-size: 120%;
+  color: var(--700-red);
+}
+
+h5,
+h6 {
+  font-style: italic;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--600-mid-grey);
+}
+
+h6 {
+  text-align: center;
+  color: var(--800-dark-grey);
+}
+
+/* paragraph and article spacings */
 p {
   margin: 0 auto;
   /* top and bottom padding */
@@ -29,4 +74,15 @@ p {
 
 article {
   margin-bottom: 1.3rem;
+}
+
+/* general link styles */
+a,
+a:hover {
+  text-decoration: underline;
+  color: var(--400-apple);
+}
+
+a:hover {
+  text-decoration: none;
 }
